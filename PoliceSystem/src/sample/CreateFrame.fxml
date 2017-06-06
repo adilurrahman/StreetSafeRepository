@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+
+
+<AnchorPane fx:id="createFrameAnchorPane" prefHeight="511.0" prefWidth="382.0" xmlns="http://javafx.com/javafx/8.0.111" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.CreateFrame">
+   <children>
+      <Label layoutX="152.0" layoutY="30.0" text="Create Login Account" />
+      <Label layoutX="68.0" layoutY="93.0" text="Enter Username" />
+      <Label layoutX="68.0" layoutY="161.0" text="Enter Password" />
+      <Label layoutX="61.0" layoutY="227.0" text="Re-Enter Password" />
+      <Button layoutX="280.0" layoutY="340.0" mnemonicParsing="false" text="Create" />
+      <TextField layoutX="177.0" layoutY="89.0" />
+      <PasswordField layoutX="177.0" layoutY="157.0" />
+      <PasswordField layoutX="177.0" layoutY="223.0" />
+   </children>
+</AnchorPane>
